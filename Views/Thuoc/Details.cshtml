@@ -15,7 +15,7 @@
         <p class="lead">@Model.MoTa</p>
 
         <div class="d-grid gap-2 col-6">
-            <a href="#" class="btn btn-primary btn-lg">
+            <a class="btn btn-primary btn-lg" asp-controller="ShoppingCart" asp-action="AddToShoppingCart" asp-route-id="@Model.Id">
                 <i class="bi bi-cart-plus"></i>
                 Thêm vào giỏ hàng
             </a>

@@ -11,6 +11,7 @@ namespace WebPharmacy.Data
 
         public DbSet<Thuoc> Thuocs { get; set; }
         public DbSet<LoaiThuoc> LoaiThuocs { get; set; }
+        public DbSet<ShoppingCartItem> ShoppingCartItems { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

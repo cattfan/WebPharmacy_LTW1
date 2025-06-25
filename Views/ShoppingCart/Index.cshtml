@@ -1,0 +1,45 @@
+﻿@using WebPharmacy.ViewModels
+@model ShoppingCartViewModel
+
+<div class="row checkoutForm">
+    <h2>Giỏ hàng của bạn</h2>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Số lượng</th>
+                <th>Sản phẩm</th>
+                <th class="text-right">Giá</th>
+                <th class="text-right">Thành tiền</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var line in Model.ShoppingCart.ShoppingCartItems)
+            {
+                <tr>
+                    <td class="text-center">@line.SoLuong</td>
+                    <td class="text-left">@line.Thuoc.TenThuoc</td>
+                    <td class="text-right">@line.Thuoc.Gia.ToString("c")</td>
+                    <td class="text-right">
+                        @((line.SoLuong * line.Thuoc.Gia).ToString("c"))
+                    </td>
+                    <td class="text-center"><a class="btn btn-sm btn-danger" asp-controller="ShoppingCart" asp-action="RemoveFromShoppingCart" asp-route-id="@line.Thuoc.Id">Xóa</a></td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" class="text-right">Tổng cộng:</td>
+                <td class="text-right">
+                    @Model.ShoppingCartTotal.ToString("c")
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <div class="text-right">
+        <div class="btn-group ">
+            <a class="btn btn-success" href="#">Thanh toán</a>
+        </div>
+    </div>
+</div>

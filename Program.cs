@@ -2,6 +2,7 @@
 using WebPharmacy.Data;
 using WebPharmacy.Repositories.Implementations;
 using WebPharmacy.Repositories.Interfaces;
+using WebPharmacy.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +16,15 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 // Đăng ký các repository với Dependency Injection container.
 builder.Services.AddScoped<IThuocRepository, ThuocRepository>();
 
+// Đăng ký các dịch vụ cần thiết cho việc quản lý Session.
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+// Đăng ký ShoppingCart với Dependency Injection container.
+builder.Services.AddScoped(sp => ShoppingCart.GetCart(sp));
+
+// Đăng ký các dịch vụ cần thiết cho Session.
+builder.Services.AddSession();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -26,6 +36,8 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+
+app.UseSession();
 
 app.UseRouting();
 
