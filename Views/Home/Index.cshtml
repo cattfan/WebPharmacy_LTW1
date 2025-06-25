@@ -1,0 +1,17 @@
+﻿@model IEnumerable<Thuoc>
+@{
+    ViewData["Title"] = "Trang Chủ";
+}
+
+<div class="text-center p-5 mb-4 bg-light rounded-3">
+    <h1 class="display-4">Chào mừng đến với WebPharmacy</h1>
+    <p class="lead">Nơi cung cấp các sản phẩm y tế uy tín và chất lượng hàng đầu.</p>
+</div>
+
+<div class="row mt-5">
+    <h2 class="text-center mb-4">Sản Phẩm Nổi Bật</h2>
+    @foreach (var thuoc in Model)
+    {
+        <partial name="_ThuocCard" model="thuoc" />
+    }
+</div>

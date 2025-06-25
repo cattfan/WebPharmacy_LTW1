@@ -1,0 +1,22 @@
+﻿@model Thuoc
+
+<div class="col-lg-4 col-md-6 mb-4">
+    <div class="card h-100 shadow-sm">
+        <a asp-controller="Thuoc" asp-action="Details" asp-route-id="@Model.Id">
+            <img class="card-img-top p-3" src="@Model.HinhAnhUrl" alt="@Model.TenThuoc" onerror="this.onerror=null;this.src='https://placehold.co/500x325/28a745/white?text=Image+Not+Found';">
+        </a>
+        <div class="card-body d-flex flex-column">
+            <h4 class="card-title">
+                <a asp-controller="Thuoc" asp-action="Details" asp-route-id="@Model.Id" class="text-decoration-none text-dark">@Model.TenThuoc</a>
+            </h4>
+            <h5 class="text-success">@Model.Gia.ToString("N0") VNĐ</h5>
+            <p class="card-text">@Model.MoTa</p>
+            <div class="mt-auto text-center">
+                <a href="#" class="btn btn-primary w-100">
+                    <i class="bi bi-cart-plus"></i>
+                    Thêm vào giỏ
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

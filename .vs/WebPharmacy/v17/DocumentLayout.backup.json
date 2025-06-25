@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CATTFAN\\Desktop\\Laptrinhweb1\\WebPharmacy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1DA46A59-040F-44AA-AE31-4B2652DC0870}|WebPharmacy.csproj|c:\\users\\cattfan\\desktop\\laptrinhweb1\\webpharmacy\\views\\thuoc\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DA46A59-040F-44AA-AE31-4B2652DC0870}|WebPharmacy.csproj|solutionrelative:views\\thuoc\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DA46A59-040F-44AA-AE31-4B2652DC0870}|WebPharmacy.csproj|c:\\users\\cattfan\\desktop\\laptrinhweb1\\webpharmacy\\views\\thuoc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DA46A59-040F-44AA-AE31-4B2652DC0870}|WebPharmacy.csproj|solutionrelative:views\\thuoc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\Laptrinhweb1\\WebPharmacy\\Views\\Thuoc\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Thuoc\\Details.cshtml",
+              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\Laptrinhweb1\\WebPharmacy\\Views\\Thuoc\\Details.cshtml",
+              "RelativeToolTip": "Views\\Thuoc\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T14:08:48.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\Laptrinhweb1\\WebPharmacy\\Views\\Thuoc\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Thuoc\\Index.cshtml",
+              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\Laptrinhweb1\\WebPharmacy\\Views\\Thuoc\\Index.cshtml",
+              "RelativeToolTip": "Views\\Thuoc\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T14:08:38.046Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
