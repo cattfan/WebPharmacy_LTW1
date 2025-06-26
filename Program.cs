@@ -22,6 +22,9 @@ builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 // Đăng ký ShoppingCart với Dependency Injection container.
 builder.Services.AddScoped(sp => ShoppingCart.GetCart(sp));
 
+// Đăng ký IOrderRepository với Dependency Injection container.
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+
 // Đăng ký các dịch vụ cần thiết cho Session.
 builder.Services.AddSession();
 

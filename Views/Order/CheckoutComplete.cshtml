@@ -1,0 +1,11 @@
+﻿@model Order
+
+<div class="text-center my-5">
+    <h1 class="display-4">Cảm ơn bạn!</h1>
+    <h2>Đơn hàng của bạn đã được tiếp nhận.</h2>
+    <p>Cảm ơn @Model.HoTen đã đặt hàng. Chúng tôi sẽ sớm giao hàng đến địa chỉ của bạn.</p>
+    <p>Tổng hóa đơn của bạn là: <strong>@Model.OrderTotal.ToString("N0") VNĐ</strong></p>
+    <p>
+        <a asp-controller="Home" asp-action="Index" class="btn btn-primary">Quay về trang chủ</a>
+    </p>
+</div>

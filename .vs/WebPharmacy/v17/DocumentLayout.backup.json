@@ -7,24 +7,16 @@
       "RelativeMoniker": "D:0:0:{1DA46A59-040F-44AA-AE31-4B2652DC0870}|WebPharmacy.csproj|solutionrelative:views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DA46A59-040F-44AA-AE31-4B2652DC0870}|WebPharmacy.csproj|c:\\users\\cattfan\\desktop\\laptrinhweb1\\webpharmacy\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1DA46A59-040F-44AA-AE31-4B2652DC0870}|WebPharmacy.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1DA46A59-040F-44AA-AE31-4B2652DC0870}|WebPharmacy.csproj|c:\\users\\cattfan\\desktop\\laptrinhweb1\\webpharmacy\\views\\order\\checkoutcomplete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DA46A59-040F-44AA-AE31-4B2652DC0870}|WebPharmacy.csproj|solutionrelative:views\\order\\checkoutcomplete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DA46A59-040F-44AA-AE31-4B2652DC0870}|WebPharmacy.csproj|c:\\users\\cattfan\\desktop\\laptrinhweb1\\webpharmacy\\views\\thuoc\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1DA46A59-040F-44AA-AE31-4B2652DC0870}|WebPharmacy.csproj|solutionrelative:views\\thuoc\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1DA46A59-040F-44AA-AE31-4B2652DC0870}|WebPharmacy.csproj|c:\\users\\cattfan\\desktop\\laptrinhweb1\\webpharmacy\\views\\order\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DA46A59-040F-44AA-AE31-4B2652DC0870}|WebPharmacy.csproj|solutionrelative:views\\order\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DA46A59-040F-44AA-AE31-4B2652DC0870}|WebPharmacy.csproj|c:\\users\\cattfan\\desktop\\laptrinhweb1\\webpharmacy\\views\\shared\\_thuoccard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1DA46A59-040F-44AA-AE31-4B2652DC0870}|WebPharmacy.csproj|solutionrelative:views\\shared\\_thuoccard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DA46A59-040F-44AA-AE31-4B2652DC0870}|WebPharmacy.csproj|c:\\users\\cattfan\\desktop\\laptrinhweb1\\webpharmacy\\viewmodels\\shoppingcartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DA46A59-040F-44AA-AE31-4B2652DC0870}|WebPharmacy.csproj|solutionrelative:viewmodels\\shoppingcartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DA46A59-040F-44AA-AE31-4B2652DC0870}|WebPharmacy.csproj|c:\\users\\cattfan\\desktop\\laptrinhweb1\\webpharmacy\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DA46A59-040F-44AA-AE31-4B2652DC0870}|WebPharmacy.csproj|solutionrelative:controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1DA46A59-040F-44AA-AE31-4B2652DC0870}|WebPharmacy.csproj|c:\\users\\cattfan\\desktop\\laptrinhweb1\\webpharmacy\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DA46A59-040F-44AA-AE31-4B2652DC0870}|WebPharmacy.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,47 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\Laptrinhweb1\\WebPharmacy\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\Laptrinhweb1\\WebPharmacy\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAmwFAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T14:44:00.765Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\Laptrinhweb1\\WebPharmacy\\Views\\Thuoc\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Thuoc\\Details.cshtml",
-              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\Laptrinhweb1\\WebPharmacy\\Views\\Thuoc\\Details.cshtml",
-              "RelativeToolTip": "Views\\Thuoc\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T14:43:48.511Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_ThuocCard.cshtml",
-              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\Laptrinhweb1\\WebPharmacy\\Views\\Shared\\_ThuocCard.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_ThuocCard.cshtml",
-              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\Laptrinhweb1\\WebPharmacy\\Views\\Shared\\_ThuocCard.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_ThuocCard.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T14:43:33.099Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -83,35 +36,48 @@
               "RelativeDocumentMoniker": "Views\\ShoppingCart\\Index.cshtml",
               "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\Laptrinhweb1\\WebPharmacy\\Views\\ShoppingCart\\Index.cshtml",
               "RelativeToolTip": "Views\\ShoppingCart\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T14:41:23.077Z",
+              "WhenOpened": "2025-06-26T09:38:42.712Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ShoppingCartController.cs",
-              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\Laptrinhweb1\\WebPharmacy\\Controllers\\ShoppingCartController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ShoppingCartController.cs",
-              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\Laptrinhweb1\\WebPharmacy\\Controllers\\ShoppingCartController.cs",
-              "RelativeToolTip": "Controllers\\ShoppingCartController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA6wDUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T14:39:35.862Z",
+              "DocumentIndex": 1,
+              "Title": "CheckoutComplete.cshtml",
+              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\Laptrinhweb1\\WebPharmacy\\Views\\Order\\CheckoutComplete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order\\CheckoutComplete.cshtml",
+              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\Laptrinhweb1\\WebPharmacy\\Views\\Order\\CheckoutComplete.cshtml",
+              "RelativeToolTip": "Views\\Order\\CheckoutComplete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T09:38:29.947Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ShoppingCartViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\Laptrinhweb1\\WebPharmacy\\ViewModels\\ShoppingCartViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\ShoppingCartViewModel.cs",
-              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\Laptrinhweb1\\WebPharmacy\\ViewModels\\ShoppingCartViewModel.cs",
-              "RelativeToolTip": "ViewModels\\ShoppingCartViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\Laptrinhweb1\\WebPharmacy\\Views\\Order\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\Laptrinhweb1\\WebPharmacy\\Views\\Order\\Checkout.cshtml",
+              "RelativeToolTip": "Views\\Order\\Checkout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T09:38:11.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\Laptrinhweb1\\WebPharmacy\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\Laptrinhweb1\\WebPharmacy\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA6wDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T14:39:22.629Z",
+              "WhenOpened": "2025-06-26T09:37:34.705Z",
               "EditorCaption": ""
             }
           ]
