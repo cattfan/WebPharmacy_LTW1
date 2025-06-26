@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebPharmacy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e3e52bb77f5690c409080db9a3ca0715bda4753")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd07821261d6b4429a95f3c5a54658a411bfd97a")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebPharmacy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebPharmacy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
