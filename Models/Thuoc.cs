@@ -23,6 +23,6 @@ namespace WebPharmacy.Models
         public int LoaiThuocId { get; set; }
 
         [ForeignKey("LoaiThuocId")]
-        public LoaiThuoc LoaiThuoc { get; set; }
+        public LoaiThuoc? LoaiThuoc { get; set; }
     }
 }

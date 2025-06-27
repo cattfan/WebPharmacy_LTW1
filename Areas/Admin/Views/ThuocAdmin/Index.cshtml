@@ -1,0 +1,36 @@
+﻿@model IEnumerable<WebPharmacy.Models.Thuoc>
+
+@{
+    ViewData["Title"] = "Quản lý Thuốc";
+}
+
+<h1>Quản lý Sản phẩm Thuốc</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Tạo sản phẩm mới</a>
+</p>
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Tên Thuốc</th>
+            <th>Giá</th>
+            <th>Loại Thuốc</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.TenThuoc)</td>
+                <td>@item.Gia.ToString("N0") VNĐ</td>
+                <td>@Html.DisplayFor(modelItem => item.LoaiThuoc.TenLoai)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-info">Sửa</a>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-secondary">Chi tiết</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
