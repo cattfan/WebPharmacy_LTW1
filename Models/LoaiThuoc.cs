@@ -11,6 +11,6 @@ namespace WebPharmacy.Models
         [StringLength(50)]
         public string TenLoai { get; set; }
 
-        public List<Thuoc> Thuocs { get; set; }
+        public List<Thuoc>? Thuocs { get; set; }
     }
 }

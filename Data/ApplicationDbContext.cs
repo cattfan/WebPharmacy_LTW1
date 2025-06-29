@@ -16,6 +16,7 @@ namespace WebPharmacy.Data
         public DbSet<ShoppingCartItem> ShoppingCartItems { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
+        public DbSet<LienHe> LienHes { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
