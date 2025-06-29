@@ -273,17 +273,37 @@ namespace WebPharmacy.Migrations
                         new
                         {
                             Id = 1,
-                            TenLoai = "Thuốc kháng sinh"
+                            TenLoai = "Giảm Đau - Hạ Sốt"
                         },
                         new
                         {
                             Id = 2,
-                            TenLoai = "Thuốc giảm đau"
+                            TenLoai = "Kháng Sinh - Kháng Viêm"
                         },
                         new
                         {
                             Id = 3,
-                            TenLoai = "Vitamin và Khoáng chất"
+                            TenLoai = "Ho - Cảm Cúm"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            TenLoai = "Vitamin & Khoáng Chất"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            TenLoai = "Tiêu Hóa"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            TenLoai = "Tim Mạch - Huyết Áp"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            TenLoai = "Dụng Cụ Y Tế"
                         });
                 });
 
@@ -415,38 +435,182 @@ namespace WebPharmacy.Migrations
                         new
                         {
                             Id = 1,
-                            Gia = 150000m,
-                            HinhAnhUrl = "https://placehold.co/500x500/28a745/white?text=Amoxicillin",
+                            Gia = 30000m,
+                            HinhAnhUrl = "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P00049_1_l.webp",
                             LoaiThuocId = 1,
-                            MoTa = "Thuốc kháng sinh điều trị nhiễm khuẩn do vi khuẩn nhạy cảm gây ra.",
-                            TenThuoc = "Amoxicillin 500mg"
+                            MoTa = "Giảm nhanh các cơn đau và hạ sốt, chứa Paracetamol và Caffeine.",
+                            TenThuoc = "Panadol Extra"
                         },
                         new
                         {
                             Id = 2,
-                            Gia = 50000m,
-                            HinhAnhUrl = "https://placehold.co/500x500/28a745/white?text=Paracetamol",
-                            LoaiThuocId = 2,
-                            MoTa = "Thuốc giảm đau, hạ sốt hiệu quả và an toàn.",
-                            TenThuoc = "Paracetamol 500mg"
+                            Gia = 25000m,
+                            HinhAnhUrl = "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P00414_1_l.webp",
+                            LoaiThuocId = 1,
+                            MoTa = "Viên nén hạ sốt, giảm đau dành cho người lớn.",
+                            TenThuoc = "Hapacol 650"
                         },
                         new
                         {
                             Id = 3,
-                            Gia = 95000m,
-                            HinhAnhUrl = "https://placehold.co/500x500/28a745/white?text=Vitamin+C",
-                            LoaiThuocId = 3,
-                            MoTa = "Bổ sung Vitamin C, tăng cường hệ miễn dịch cho cơ thể.",
-                            TenThuoc = "Vitamin C 1000mg"
+                            Gia = 45000m,
+                            HinhAnhUrl = "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P00045_1_l.webp",
+                            LoaiThuocId = 1,
+                            MoTa = "Viên sủi giúp hạ sốt, giảm đau nhanh chóng.",
+                            TenThuoc = "Efferalgan 500mg"
                         },
                         new
                         {
                             Id = 4,
-                            Gia = 75000m,
-                            HinhAnhUrl = "https://placehold.co/500x500/28a745/white?text=Ibuprofen",
+                            Gia = 180000m,
+                            HinhAnhUrl = "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P11933_1_l.webp",
                             LoaiThuocId = 2,
-                            MoTa = "Thuốc chống viêm không steroid, giảm đau, hạ sốt và chống viêm.",
-                            TenThuoc = "Ibuprofen 400mg"
+                            MoTa = "Kháng sinh phổ rộng điều trị nhiễm khuẩn đường hô hấp, tiết niệu.",
+                            TenThuoc = "Augmentin 625mg"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Gia = 38000m,
+                            HinhAnhUrl = "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P00021_1_l.webp",
+                            LoaiThuocId = 2,
+                            MoTa = "Thuốc kháng viêm, giảm phù nề sau chấn thương hoặc phẫu thuật.",
+                            TenThuoc = "Alpha Choay"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Gia = 110000m,
+                            HinhAnhUrl = "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P01243_1.jpg",
+                            LoaiThuocId = 2,
+                            MoTa = "Thuốc chống viêm, chống dị ứng và ức chế miễn dịch.",
+                            TenThuoc = "Medrol 16mg"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Gia = 22000m,
+                            HinhAnhUrl = "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P15582_1_l.webp",
+                            LoaiThuocId = 3,
+                            MoTa = "Giảm ho, long đờm hiệu quả.",
+                            TenThuoc = "Terpin Codein"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Gia = 95000m,
+                            HinhAnhUrl = "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P00320_1_l.webp",
+                            LoaiThuocId = 3,
+                            MoTa = "Điều trị các triệu chứng cảm thông thường: sốt, nhức đầu, sổ mũi.",
+                            TenThuoc = "Decolgen Forte"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            Gia = 35000m,
+                            HinhAnhUrl = "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P00234_1_l.webp",
+                            LoaiThuocId = 3,
+                            MoTa = "Viên ngậm kháng khuẩn, làm dịu cơn đau họng.",
+                            TenThuoc = "Strepsils Cool"
+                        },
+                        new
+                        {
+                            Id = 10,
+                            Gia = 135000m,
+                            HinhAnhUrl = "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P00575_1_l.webp",
+                            LoaiThuocId = 4,
+                            MoTa = "Viên sủi bổ sung vitamin và khoáng chất, tăng cường năng lượng.",
+                            TenThuoc = "Berocca Performance"
+                        },
+                        new
+                        {
+                            Id = 11,
+                            Gia = 120000m,
+                            HinhAnhUrl = "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P13997_1_l.webp",
+                            LoaiThuocId = 4,
+                            MoTa = "Bổ sung đầy đủ vitamin và khoáng chất cần thiết cho cơ thể.",
+                            TenThuoc = "Supradyn"
+                        },
+                        new
+                        {
+                            Id = 12,
+                            Gia = 165000m,
+                            HinhAnhUrl = "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P17822_1_l.webp",
+                            LoaiThuocId = 4,
+                            MoTa = "Kết hợp nhân sâm G115 và vitamin, giúp giảm mệt mỏi.",
+                            TenThuoc = "Pharmaton Energy"
+                        },
+                        new
+                        {
+                            Id = 13,
+                            Gia = 115000m,
+                            HinhAnhUrl = "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P00223_1_l.webp",
+                            LoaiThuocId = 5,
+                            MoTa = "Điều trị tiêu chảy cấp và mạn tính ở người lớn và trẻ em.",
+                            TenThuoc = "Smecta"
+                        },
+                        new
+                        {
+                            Id = 14,
+                            Gia = 125000m,
+                            HinhAnhUrl = "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P00360_1_l.webp",
+                            LoaiThuocId = 5,
+                            MoTa = "Men vi sinh dạng ống giúp cân bằng hệ vi sinh đường ruột.",
+                            TenThuoc = "Enterogermina"
+                        },
+                        new
+                        {
+                            Id = 15,
+                            Gia = 90000m,
+                            HinhAnhUrl = "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P00196_1_l.webp",
+                            LoaiThuocId = 5,
+                            MoTa = "Thuốc chữ P, dạng gel giúp trung hòa acid dạ dày.",
+                            TenThuoc = "Phosphalugel"
+                        },
+                        new
+                        {
+                            Id = 16,
+                            Gia = 70000m,
+                            HinhAnhUrl = "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P14917_1_l.webp",
+                            LoaiThuocId = 6,
+                            MoTa = "Thuốc điều trị tăng huyết áp và đau thắt ngực.",
+                            TenThuoc = "Amlor 5mg"
+                        },
+                        new
+                        {
+                            Id = 17,
+                            Gia = 130000m,
+                            HinhAnhUrl = "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P00685_1.jpg",
+                            LoaiThuocId = 6,
+                            MoTa = "Điều trị tăng huyết áp, suy tim mạn tính ổn định.",
+                            TenThuoc = "Concor 5mg"
+                        },
+                        new
+                        {
+                            Id = 18,
+                            Gia = 20000m,
+                            HinhAnhUrl = "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P00267_1_l.webp",
+                            LoaiThuocId = 7,
+                            MoTa = "Băng keo thông thoáng, độ dính cao, bảo vệ các vết thương nhỏ.",
+                            TenThuoc = "Băng keo cá nhân Urgo"
+                        },
+                        new
+                        {
+                            Id = 19,
+                            Gia = 150000m,
+                            HinhAnhUrl = "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P01535_1_l.webp",
+                            LoaiThuocId = 7,
+                            MoTa = "Đo nhiệt độ nhanh chóng, chính xác và an toàn.",
+                            TenThuoc = "Nhiệt kế điện tử Omron"
+                        },
+                        new
+                        {
+                            Id = 20,
+                            Gia = 5000m,
+                            HinhAnhUrl = "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P01579_1_l.webp",
+                            LoaiThuocId = 7,
+                            MoTa = "Dùng để rửa mắt, mũi, súc miệng hằng ngày.",
+                            TenThuoc = "Nước muối sinh lý 0.9%"
                         });
                 });
 

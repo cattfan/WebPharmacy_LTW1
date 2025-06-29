@@ -283,9 +283,13 @@ namespace WebPharmacy.Migrations
                 columns: new[] { "Id", "TenLoai" },
                 values: new object[,]
                 {
-                    { 1, "Thuốc kháng sinh" },
-                    { 2, "Thuốc giảm đau" },
-                    { 3, "Vitamin và Khoáng chất" }
+                    { 1, "Giảm Đau - Hạ Sốt" },
+                    { 2, "Kháng Sinh - Kháng Viêm" },
+                    { 3, "Ho - Cảm Cúm" },
+                    { 4, "Vitamin & Khoáng Chất" },
+                    { 5, "Tiêu Hóa" },
+                    { 6, "Tim Mạch - Huyết Áp" },
+                    { 7, "Dụng Cụ Y Tế" }
                 });
 
             migrationBuilder.InsertData(
@@ -293,10 +297,26 @@ namespace WebPharmacy.Migrations
                 columns: new[] { "Id", "Gia", "HinhAnhUrl", "LoaiThuocId", "MoTa", "TenThuoc" },
                 values: new object[,]
                 {
-                    { 1, 150000m, "https://placehold.co/500x500/28a745/white?text=Amoxicillin", 1, "Thuốc kháng sinh điều trị nhiễm khuẩn do vi khuẩn nhạy cảm gây ra.", "Amoxicillin 500mg" },
-                    { 2, 50000m, "https://placehold.co/500x500/28a745/white?text=Paracetamol", 2, "Thuốc giảm đau, hạ sốt hiệu quả và an toàn.", "Paracetamol 500mg" },
-                    { 3, 95000m, "https://placehold.co/500x500/28a745/white?text=Vitamin+C", 3, "Bổ sung Vitamin C, tăng cường hệ miễn dịch cho cơ thể.", "Vitamin C 1000mg" },
-                    { 4, 75000m, "https://placehold.co/500x500/28a745/white?text=Ibuprofen", 2, "Thuốc chống viêm không steroid, giảm đau, hạ sốt và chống viêm.", "Ibuprofen 400mg" }
+                    { 1, 30000m, "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P00049_1_l.webp", 1, "Giảm nhanh các cơn đau và hạ sốt, chứa Paracetamol và Caffeine.", "Panadol Extra" },
+                    { 2, 25000m, "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P00414_1_l.webp", 1, "Viên nén hạ sốt, giảm đau dành cho người lớn.", "Hapacol 650" },
+                    { 3, 45000m, "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P00045_1_l.webp", 1, "Viên sủi giúp hạ sốt, giảm đau nhanh chóng.", "Efferalgan 500mg" },
+                    { 4, 180000m, "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P11933_1_l.webp", 2, "Kháng sinh phổ rộng điều trị nhiễm khuẩn đường hô hấp, tiết niệu.", "Augmentin 625mg" },
+                    { 5, 38000m, "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P00021_1_l.webp", 2, "Thuốc kháng viêm, giảm phù nề sau chấn thương hoặc phẫu thuật.", "Alpha Choay" },
+                    { 6, 110000m, "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P01243_1.jpg", 2, "Thuốc chống viêm, chống dị ứng và ức chế miễn dịch.", "Medrol 16mg" },
+                    { 7, 22000m, "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P15582_1_l.webp", 3, "Giảm ho, long đờm hiệu quả.", "Terpin Codein" },
+                    { 8, 95000m, "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P00320_1_l.webp", 3, "Điều trị các triệu chứng cảm thông thường: sốt, nhức đầu, sổ mũi.", "Decolgen Forte" },
+                    { 9, 35000m, "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P00234_1_l.webp", 3, "Viên ngậm kháng khuẩn, làm dịu cơn đau họng.", "Strepsils Cool" },
+                    { 10, 135000m, "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P00575_1_l.webp", 4, "Viên sủi bổ sung vitamin và khoáng chất, tăng cường năng lượng.", "Berocca Performance" },
+                    { 11, 120000m, "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P13997_1_l.webp", 4, "Bổ sung đầy đủ vitamin và khoáng chất cần thiết cho cơ thể.", "Supradyn" },
+                    { 12, 165000m, "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P17822_1_l.webp", 4, "Kết hợp nhân sâm G115 và vitamin, giúp giảm mệt mỏi.", "Pharmaton Energy" },
+                    { 13, 115000m, "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P00223_1_l.webp", 5, "Điều trị tiêu chảy cấp và mạn tính ở người lớn và trẻ em.", "Smecta" },
+                    { 14, 125000m, "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P00360_1_l.webp", 5, "Men vi sinh dạng ống giúp cân bằng hệ vi sinh đường ruột.", "Enterogermina" },
+                    { 15, 90000m, "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P00196_1_l.webp", 5, "Thuốc chữ P, dạng gel giúp trung hòa acid dạ dày.", "Phosphalugel" },
+                    { 16, 70000m, "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P14917_1_l.webp", 6, "Thuốc điều trị tăng huyết áp và đau thắt ngực.", "Amlor 5mg" },
+                    { 17, 130000m, "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P00685_1.jpg", 6, "Điều trị tăng huyết áp, suy tim mạn tính ổn định.", "Concor 5mg" },
+                    { 18, 20000m, "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P00267_1_l.webp", 7, "Băng keo thông thoáng, độ dính cao, bảo vệ các vết thương nhỏ.", "Băng keo cá nhân Urgo" },
+                    { 19, 150000m, "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P01535_1_l.webp", 7, "Đo nhiệt độ nhanh chóng, chính xác và an toàn.", "Nhiệt kế điện tử Omron" },
+                    { 20, 5000m, "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-core/products/P01579_1_l.webp", 7, "Dùng để rửa mắt, mũi, súc miệng hằng ngày.", "Nước muối sinh lý 0.9%" }
                 });
 
             migrationBuilder.CreateIndex(
